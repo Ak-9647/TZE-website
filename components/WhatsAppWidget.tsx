@@ -154,7 +154,7 @@ export function WhatsAppWidget() {
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
-                        className="fixed bottom-28 right-6 z-50 w-[360px]"
+                        className="fixed bottom-24 sm:bottom-28 right-4 sm:right-6 left-4 sm:left-auto z-50 sm:w-[360px]"
                         initial={{ opacity: 0, y: 20, scale: 0.9, originX: 1, originY: 1 }}
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: 20, scale: 0.9 }}
