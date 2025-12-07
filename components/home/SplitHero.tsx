@@ -111,7 +111,7 @@ export function SplitHero() {
                     transition={{ duration: 0.7 }}
                 >
                     <Image
-                        src="/images/scrap/banner.jpg"
+                        src="/images/scrap/banner-img2.jpg"
                         alt="Industrial Scrap Recycling"
                         fill
                         className="object-cover"
@@ -257,7 +257,7 @@ export function SplitHero() {
                     transition={{ duration: 0.7 }}
                 >
                     <Image
-                        src="/images/oilfield/banner.jpg"
+                        src="/images/oilfield/homebanner1.jpg"
                         alt="Oilfield Equipment Supply"
                         fill
                         className="object-cover"
