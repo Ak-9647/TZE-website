@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Trading Solutions LLC Website
 
-## Getting Started
+A modern, ultra-optimized website for Trading Solutions LLC - Industrial Scrap Recycling & Oilfield Equipment Supply based in Dallas, Texas.
 
-First, run the development server:
+## 🚀 Features
+
+- **Split-Funnel Homepage** - Choose between Scrap Recycling and Oilfield Equipment divisions
+- **Modern Animations** - Framer Motion scroll-triggered effects, parallax, floating particles
+- **WhatsApp Chatbot Widget** - Instant customer communication
+- **Ultra SEO Optimized** - JSON-LD structured data, Open Graph, Twitter cards
+- **Static Export** - Fast loading, deploy anywhere
+
+## 🛠 Tech Stack
+
+- **Next.js 16** - React framework
+- **Tailwind CSS** - Styling
+- **Framer Motion** - Animations
+- **Lucide React** - Icons
+- **TypeScript** - Type safety
+
+## 📦 Installation
+
+```bash
+npm install
+```
+
+## 🏃 Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔨 Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+Static files are generated in the `out/` directory.
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+├── app/
+│   ├── page.tsx           # Homepage (split-funnel)
+│   ├── contact/page.tsx   # Contact form
+│   ├── scrap/page.tsx     # Scrap Recycling division
+│   └── oilfield/page.tsx  # Oilfield Equipment division
+├── components/
+│   ├── WhatsAppWidget.tsx # Floating chatbot
+│   ├── layout/           # Header, Footer
+│   ├── home/             # SplitHero, TrustBar
+│   └── ui/               # Button, Card
+└── public/images/        # Image assets
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌐 Deployment
 
-## Deploy on Vercel
+This is a static site. Deploy to:
+- Vercel (recommended)
+- Netlify
+- GitHub Pages
+- AWS S3 + CloudFront
+- cPanel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Private - Trading Solutions LLC
